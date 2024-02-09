@@ -9,3 +9,30 @@ public class HackathonApplication {
         SpringApplication.run(HackathonApplication.class);
     }
 }
+
+
+
+
+
+
+
+
+
+// Base classes:
+// BaseService, BaseServiceImpl
+// Services for:
+// Author (AuthorService from BaseService, AuthorServiceImpl from BaseServiceImpl)
+// The same for BlogPost and Book
+// AuthorService: void assign(Author author, Content content, BigDecimal cost)
+
+
+
+
+
+
+
+
+
+
+
+
