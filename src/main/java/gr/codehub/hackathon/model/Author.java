@@ -33,3 +33,5 @@ public class Author extends BaseModel {
 	@OneToMany(mappedBy = "author")
 	private Set<Activity> activities = new HashSet<>();
 }
+
+// Optional<Author>  getAuthor(Long id);
